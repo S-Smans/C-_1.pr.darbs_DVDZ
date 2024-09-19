@@ -1,5 +1,4 @@
-﻿
-// 1. Uzdevums
+//// 1. Uzdevums
 double a = 5;
 double b = 4;
 
@@ -20,7 +19,7 @@ Console.WriteLine();
 Console.WriteLine();
 
 
-// 2. Uzdevums
+//// 2. Uzdevums
 double pi = 3.1415926;
 double radius = 2.4;
 
@@ -40,7 +39,7 @@ Console.WriteLine();
 Console.WriteLine();
 
 
-// 3. Uzdevums
+//// 3. Uzdevums
 Console.WriteLine("3. Uzdevums");
 Console.WriteLine("---------------------------");
 Console.WriteLine("Ievadiet x: ");
@@ -60,7 +59,7 @@ Console.WriteLine();
 Console.WriteLine();
 
 
-// 4. Uzdevums
+//// 4. Uzdevums
 Console.WriteLine("4. Uzdevums");
 Console.WriteLine("---------------------------");
 Console.WriteLine("\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10");
@@ -77,7 +76,7 @@ Console.WriteLine("9 |\t" + 9 * 1 + "\t" + 9 * 2 + "\t" + 9 * 3 + "\t" + 9 * 4 +
 Console.WriteLine("10|\t" + 10 * 1 + "\t" + 10 * 2 + "\t" + 10 * 3 + "\t" + 10 * 4 + "\t" + 10 * 5 + "\t" + 10 * 6 + "\t" + 10 * 7 + "\t" + 10 * 8 + "\t" + 10 * 9 + "\t" + 10 * 10);
 
 
-// 5. Uzdevums
+//// 5. Uzdevums
 Console.WriteLine("5. Uzdevums");
 Console.WriteLine("---------------------------");
 
@@ -126,6 +125,43 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Ievadiet skaitli C: ");
 int c = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(a + "^2 - " + b + "^2 = (" +a + "-" + b + ")*(" + a +"+" + b +")");
-Console.WriteLine((a * a) +"-"+ (b*b) + " = " + "(" + (a-b) + ")*(" + (a + b) + ")");
+Console.WriteLine(a + "^2 - " + b + "^2 = (" + a + "-" + b + ")*(" + a + "+" + b + ")");
+Console.WriteLine((a * a) + "-" + (b * b) + " = " + "(" + (a - b) + ")*(" + (a + b) + ")");
 Console.WriteLine((a * a) - (b * b) + " = " + (a - b) * (a + b));
+Console.ReadLine();
+
+
+Console.WriteLine();
+Console.WriteLine("(" + a + " + " + b + ")^2 = " + a + "^2+ 2" + (a * b) + "+" + b + "^2");
+Console.WriteLine((a + b) * (a + b) + " = " + ((a * a) + (2 * a * b) + (b * b)));
+Console.ReadLine();
+
+Console.WriteLine();
+Console.WriteLine("(" + a + " - " + b + ")^2 = " + a + "^2- 2" + (a * b) + "+" + b + "^2");
+Console.WriteLine((a - b) * (a - b) + " = " + ((a * a) - (2 * a * b) + (b * b)));
+Console.ReadLine();
+
+Console.WriteLine();
+Console.WriteLine(a + "^3 + " + b + "^3 = (" + a + "+" + b + ")*(" + a + "^2- 2" + (a * b) + "+" + b + "^2)");
+Console.WriteLine((a * a * a) + (b * b * b) + " = " + ((a + b) * (a * a - a * b + b * b)));
+Console.ReadLine();
+
+Console.WriteLine();
+Console.WriteLine(a + "^3 - " + b + "^3 = (" + a + "-" + b + ")*(" + a + "^2+ 2" + (a * b) + "+" + b + "^2)");
+Console.WriteLine((a * a * a) - (b * b * b) + " = " + ((a - b) * (a * a + a * b + b * b)));
+Console.ReadLine();
+
+Console.WriteLine();
+Console.WriteLine("(" + a + " + " + b + ")^3 = " + a + "^3+ 3 *" + a + "^2*" + b + "3*" + a + "*" + b + "^2 + " + b + "^3");
+Console.WriteLine((a + b) * (a + b) * (a + b) + " = " + ((a * a * a) + (3 * (a *a) * b) + (3 *a *b * b) + (b * b *b)) );
+Console.ReadLine();
+
+Console.WriteLine();
+Console.WriteLine("(" + a + " - " + b + ")^3 = " + a + "^3- 3 *" + a + "^2*" + b + "3*" + a + "*" + b + "^2 - " + b + "^3");
+Console.WriteLine((a - b) * (a - b) * (a - b) + " = " + ((a * a * a) - (3 * (a * a) * b) + (3 * a * b * b) - (b * b * b)));
+Console.ReadLine();
+
+Console.WriteLine();
+Console.WriteLine("("+ a+ "+" +b+ "+" +c +")^2 = " + a + "^2 + " + b + "^2 + " + c + "^2 + " + "2 * " +a + " * " + b + " + 2 * " + a + " * " + c + "+ 2 * " + b + " * " + c );
+Console.WriteLine((a + b + c) * (a + b + c) + " = " + (a*a + b*b + c*c+ 2*a*b+2*a*c+2*b*c));
+Console.ReadLine();
